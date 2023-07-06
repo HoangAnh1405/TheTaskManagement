@@ -1,0 +1,62 @@
+﻿.notehowclientthink {
+    color: rgb(60, 43, 21);
+    font-weight: 200%;
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 500px;
+    font-family: 'Alkatra', cursive;
+}
+
+#contact {
+    position: absolute;
+    top: 57px;
+    left: 600px;
+}
+
+.somenote {
+    font-size: 25px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-family: 'Playfair Display', serif;
+}
+
+.thankyou {
+    color: #cf3636;
+    font-size: 25px;
+    position: absolute;
+    top: 270px;
+    left: 800px;
+    font-family: 'Playfair Display', serif;
+}
+
+#facebook {
+    border: solid 1px #2e343a;
+    box-shadow: 0.5px 0px 0px #2e343a, 0px 0.5px 0px #2e343a, 1px 0.5px 0px #2e343a, 0.5px 1px 0px #2e343a, 1.5px 1px 0px #2e343a, 1px 1.5px 0px #2e343a, 2px 1.5px 0px #2e343a, 1.5px 2px 0px #2e343a, 2.5px 2px 0px #2e343a, 2px 2.5px 0px #2e343a, 3px 2.5px 0px #2e343a, 2.5px 3px 0px #2e343a, 3.5px 3px 0px #2e343a, 3px 3.5px 0px #2e343a, 4px 3.5px 0px #2e343a, 3.5px 4px 0px #2e343a, 4.5px 4px 0px #2e343a, 4px 4.5px 0px #2e343a;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+#instagram {
+    border: solid 1px #2e343a;
+    box-shadow: 0.5px 0px 0px #2e343a, 0px 0.5px 0px #2e343a, 1px 0.5px 0px #2e343a, 0.5px 1px 0px #2e343a, 1.5px 1px 0px #2e343a, 1px 1.5px 0px #2e343a, 2px 1.5px 0px #2e343a, 1.5px 2px 0px #2e343a, 2.5px 2px 0px #2e343a, 2px 2.5px 0px #2e343a, 3px 2.5px 0px #2e343a, 2.5px 3px 0px #2e343a, 3.5px 3px 0px #2e343a, 3px 3.5px 0px #2e343a, 4px 3.5px 0px #2e343a, 3.5px 4px 0px #2e343a, 4.5px 4px 0px #2e343a, 4px 4.5px 0px #2e343a;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    width: 80px;
+    border-radius: 7px;
+}
+
+#github {
+    border: solid 1px #2e343a;
+    box-shadow: 0.5px 0px 0px #2e343a, 0px 0.5px 0px #2e343a, 1px 0.5px 0px #2e343a, 0.5px 1px 0px #2e343a, 1.5px 1px 0px #2e343a, 1px 1.5px 0px #2e343a, 2px 1.5px 0px #2e343a, 1.5px 2px 0px #2e343a, 2.5px 2px 0px #2e343a, 2px 2.5px 0px #2e343a, 3px 2.5px 0px #2e343a, 2.5px 3px 0px #2e343a, 3.5px 3px 0px #2e343a, 3px 3.5px 0px #2e343a, 4px 3.5px 0px #2e343a, 3.5px 4px 0px #2e343a, 4.5px 4px 0px #2e343a, 4px 4.5px 0px #2e343a;
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+    width: 80px;
+    border-radius: 7px;
+}

@@ -1,0 +1,420 @@
+﻿/*TIÊU ĐỀ*/
+.joinus {
+    border: solid 3px #2e343a;
+    box-shadow: 1px 0px 0px #2e343a, 0px 1px 0px #2e343a, 2px 1px 0px #2e343a, 1px 2px 0px #2e343a, 3px 2px 0px #2e343a, 2px 3px 0px #2e343a, 4px 3px 0px #2e343a, 3px 4px 0px #2e343a, 5px 4px 0px #2e343a, 4px 5px 0px #2e343a, 6px 5px 0px #2e343a, 5px 6px 0px #2e343a, 7px 6px 0px #2e343a, 6px 7px 0px #2e343a, 8px 7px 0px #2e343a, 7px 8px 0px #2e343a, 9px 8px 0px #2e343a, 8px 9px 0px #2e343a;
+    font-weight: 50px;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 20px;
+    font-size: 70px;
+    position: absolute;
+    top: 130px;
+    left: 550px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* FORM ĐĂNG KÝ */
+.form {
+    border: solid 2px #2e343a;
+    box-shadow: 1px 0px 0px #2e343a, 0px 1px 0px #2e343a, 2px 1px 0px #2e343a, 1px 2px 0px #2e343a, 3px 2px 0px #2e343a, 2px 3px 0px #2e343a, 4px 3px 0px #2e343a, 3px 4px 0px #2e343a, 5px 4px 0px #2e343a, 4px 5px 0px #2e343a, 6px 5px 0px #2e343a, 5px 6px 0px #2e343a, 7px 6px 0px #2e343a, 6px 7px 0px #2e343a, 8px 7px 0px #2e343a, 7px 8px 0px #2e343a, 9px 8px 0px #2e343a, 8px 9px 0px #2e343a;
+    padding-top: 7px;
+    text-align: center;
+    background-color: rgb(235, 150, 150);
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 480px;
+}
+
+/* ĐĂNG NHẬP */
+.space {
+    height: 7px;
+}
+
+.namelogin {
+    color: #2e343a;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+}
+
+#id_name {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 26px;
+    width: 230px;
+}
+
+.password {
+    color: #2e343a;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+}
+
+#id_pass {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 26px;
+    width: 230px;
+}
+
+#id_login {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    height: 30px;
+    width: 100px;
+}
+
+    #id_login:hover {
+        background-color: rgb(63, 255, 255);
+    }
+
+    #id_login:active {
+        border: solid rgb(246, 231, 231);
+    }
+
+#title_tk {
+    color: #1f7ddb;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+#id_signup {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    height: 30px;
+    width: 100px;
+}
+
+    #id_signup:hover {
+        background-color: rgb(63, 255, 255);
+    }
+
+    #id_signup:active {
+        border: solid rgb(246, 231, 231);
+    }
+
+.form_message {
+    color: #217edb;
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+}
+
+/* ----------------Sign Up Alter--------------- */
+
+.sign_up_alter {
+    border: solid 2px #2e343a;
+    box-shadow: 1px 0px 0px #2e343a, 0px 1px 0px #2e343a, 2px 1px 0px #2e343a, 1px 2px 0px #2e343a, 3px 2px 0px #2e343a, 2px 3px 0px #2e343a, 4px 3px 0px #2e343a, 3px 4px 0px #2e343a, 5px 4px 0px #2e343a, 4px 5px 0px #2e343a, 6px 5px 0px #2e343a, 5px 6px 0px #2e343a, 7px 6px 0px #2e343a, 6px 7px 0px #2e343a, 8px 7px 0px #2e343a, 7px 8px 0px #2e343a, 9px 8px 0px #2e343a, 8px 9px 0px #2e343a;
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    left: 460px;
+    top: 230px;
+    background-color: rgb(235, 150, 150);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.inner {
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    background-color: rgb(235, 150, 150);
+    border-radius: 10px;
+}
+
+.caption {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    left: 90px;
+    top: 2px;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+
+.closebutton {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 500px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: rgb(247, 217, 217);
+}
+
+    .closebutton:hover {
+        background-color: aqua;
+    }
+
+    .closebutton:active {
+        border: solid rgb(246, 231, 231);
+    }
+
+#form_group_ID {
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    top: 90px;
+}
+
+.name_login_ID {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: 'Playfair Display', serif;
+    position: center;
+}
+
+.space_ID {
+    width: 10px;
+    height: 10px;
+}
+
+.id_name_ID {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 200px;
+    height: 26px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#form_massage_ID {
+    font-family: 'Playfair Display';
+    color: #3996f4;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    width: 200px;
+    height: 26px;
+}
+
+#form_group_EM {
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    top: 180px;
+}
+
+.email_login_EM {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.space_EM {
+    width: 10px;
+    height: 10px;
+}
+
+.email_name_EM {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 200px;
+    height: 26px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#form_massage_EM {
+    font-family: 'Playfair Display';
+    color: #3996f4;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 229px;
+    width: 220px;
+    height: 26px;
+}
+
+#form_group_PS {
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    top: 270px;
+}
+
+.pass_login_PS {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.space_PS {
+    width: 10px;
+    height: 10px;
+}
+
+.pass_name_PS {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 200px;
+    height: 26px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#form_massage_PS {
+    font-family: 'Playfair Display';
+    color: #3996f4;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 229px;
+    width: 300px;
+    height: 26px;
+}
+
+#form_group_RPS {
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    top: 360px;
+}
+
+.repass_login_RPS {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 43px;
+    font-family: 'Playfair Display', serif;
+}
+
+.space_RPS {
+    width: 10px;
+    height: 10px;
+}
+
+.repass_name_RPS {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 200px;
+    height: 26px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#form_massage_RPS {
+    font-family: 'Playfair Display';
+    color: #3996f4;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 229px;
+    width: 220px;
+    height: 26px;
+}
+
+.submitsignup {
+    background-color: rgb(247, 217, 217);
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 450px;
+    left: 230px;
+    border: solid black;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+    .submitsignup:hover {
+        background-color: aqua;
+    }
+
+    .submitsignup:active {
+        border: solid rgb(246, 231, 231);
+    }
+
+#noteSubmit {
+    border: solid 2px #2e343a;
+    box-shadow: 1px 0px 0px #2e343a, 0px 1px 0px #2e343a, 2px 1px 0px #2e343a, 1px 2px 0px #2e343a, 3px 2px 0px #2e343a, 2px 3px 0px #2e343a, 4px 3px 0px #2e343a, 3px 4px 0px #2e343a, 5px 4px 0px #2e343a, 4px 5px 0px #2e343a, 6px 5px 0px #2e343a, 5px 6px 0px #2e343a, 7px 6px 0px #2e343a, 6px 7px 0px #2e343a, 8px 7px 0px #2e343a, 7px 8px 0px #2e343a, 9px 8px 0px #2e343a, 8px 9px 0px #2e343a;
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    background-color: rgb(235, 150, 150);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top : 25px;
+    color : cornflowerblue;
+}
+
+.buttonback {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 360px;
+    left: 760px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: rgb(247, 217, 217);
+}
+.closebuttonSIlogOut {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    left: 275px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: rgb(247, 217, 217);
+}

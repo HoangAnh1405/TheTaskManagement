@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\bin\Debug\net7.0\META_TodoList.Data.deps.json
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\bin\Debug\net7.0\META_TodoList.Data.runtimeconfig.json
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\bin\Debug\net7.0\META_TodoList.Data.dll
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\bin\Debug\net7.0\META_TodoList.Data.pdb
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.AssemblyInfo.cs
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.dll
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\refint\META_TodoList.Data.dll
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.pdb
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\META_TodoList.Data.genruntimeconfig.cache
+C:\Users\Admin\source\repos\test\META_TodoList.Data.cs\obj\Debug\net7.0\ref\META_TodoList.Data.dll

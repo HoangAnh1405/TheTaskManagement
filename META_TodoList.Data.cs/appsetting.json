@@ -1,0 +1,6 @@
+﻿{
+  "connectionStrings": {
+    "EFconnectStringDB": "Data Source=TOANDINHH\\SQLTOANDINHH;Initial Catalog=META_TodoList_EF;Integrated Security=True;Persist Security Info=True;User ID=sa;Password=123456;Encrypt=True;Trust Server Certificate=True",
+    "MySQLconnectStringDB": "Server=127.0.0.1;User ID=root;Password=123456 ;Database=meta_todolist_mysql;;Integrated Security=True;Persist Security Info=True;User ID=sa;Password=123456;Encrypt=True;Trust Server Certificate=True"
+  }
+}

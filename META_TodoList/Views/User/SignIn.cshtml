@@ -1,0 +1,41 @@
+﻿@{
+	ViewData["Title"] = "Join Us";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="head">
+	<div class="joinus"> Join Us </div>
+</div>
+<body>
+	<div class="altersignup">
+		<form id="form_id" class="form" action="~/User/SISubmit" method="POST">	
+
+			<div class="form_group">
+				<label class="namelogin" for="name">Your ID</label><br>
+				<div class="space"></div>
+				<input id="id_name" name="SIid" type="text" placeholder="Enter your ID"><br>
+				<span class="form_message"></span>
+			</div>
+			<div class="space"></div>
+
+			<div class="form_group">
+				<label class="password">Your PassWord</label><br>
+				<div class="space"></div>
+				<input id="id_pass" name="SIpass" type="password" placeholder="Enter your password"><br>
+				<span class="form_message"></span>
+			</div>
+
+			<br>
+			<input id="id_login" type="submit" value="Log In" />
+			<div class="space"></div>
+			<div class="space"></div>
+
+			<p id="title_tk">You don't have any account ?</p>
+			<div class="space"></div>
+			<a id="id_signup" asp-area="" asp-controller="User" asp-action="SignUp">Sign Up</a>
+		</form>
+	</div>
+</body>
+
+
+

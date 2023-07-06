@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\META_TodoList.props" />
+</Project>

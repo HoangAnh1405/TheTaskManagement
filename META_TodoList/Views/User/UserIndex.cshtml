@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = " Welcome";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+@model ToDoTitle
+@using META_TodoList.Models.ToDoList_Model;
+@using META_TodoList.Models.User_Model;
+@using META_TodoList.Controllers;
+
+<div class="welcome">
+    <div class="letter">
+       " Welcome back @{
+            var id = User.Identity.Name.ToString();
+            var user = new UserSignIn(id, "")
+            {
+                _id = id
+            };
+            @user._id
+            }
+        !!!
+    </div>
+    <div class ="letter">
+    Let have a hardwork and enjoy your day !!! "
+    </div>
+</div>
+<section>
+    <div class="headertdl">
+        TO DO LIST
+        <input id="title" style="color:rgb(146, 130, 130);" type="text"
+               placeholder="Enter your title..." name ="todoList">
+        <button id="ubtnadd" style="color:rgb(148, 135, 135);">ADD</button>
+    </div>
+    <ul class="minitodo">
+        <li id="id_list" class="list">
+            <span class="material-symbols-outlined">backspace</span>
+            Learning English
+        </li>
+        @foreach (var title in Model._title )
+        {
+            <li id ="id_list" class="list">
+                <span class="material-symbols-outlined">backspace</span>
+                @title
+            </li>
+        }
+        @foreach (var checkedtitle in Model._checkedtitle)
+        {
+            <li id="new_id_list" class="list">
+                <span class="material-symbols-outlined">backspace</span>
+                @checkedtitle
+            </li>
+        }
+    </ul>
+    <a class="closebuttonSIlogOut" asp-area="" asp-controller="User" asp-action="SILogOut">Sign Out</a>
+</section>
+<script src="~/js/UserIndex.js" asp-append-version="true"></script>
+

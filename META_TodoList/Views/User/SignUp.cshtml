@@ -1,0 +1,58 @@
+﻿@{
+	ViewData["Title"] = "Sign Up";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using META_TodoList.Models.Message_Model;
+@using META_TodoList.Controllers;
+	<form class="sign_up_alter" action="~/User/Submit" method="POST">
+	<div class="inner">
+		<div class="caption">Wellcome to us</div>
+	</div>
+	<a class="closebutton" asp-area="" asp-controller="User" asp-action="SignIn">X</a>
+	<div class="form_group" id="form_group_ID">
+		<label class="name_login_ID">Your ID : </label>
+		<div class="space_ID"></div>
+		<input class="id_name_ID" name="id" id="txtId" placeholder="Enter your ID">
+		<span class="form_message" id="form_massage_ID"></span>
+		<script>
+			(function(){
+				var txt = document.getElementById('txtId');
+				function checkAvailableUserId(){
+					fetch(API_URLS.Check, {
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+						},
+						body: JSON.stringify({_id:txt.value})
+					})
+						.then(response => response.json())
+						.then(response => {document.getElementById('form_massage_ID').innerHTML = response.message});
+				}
+				txt.onkeyup = function(){
+					if( window._checkInterval)
+						window.clearTimeout(window._checkInterval)
+					window._checkInterval = window.setTimeout(checkAvailableUserId, 1000);
+				}
+			})();
+		</script>
+	</div>
+	<div class="form_group" id="form_group_EM">
+		<label class="email_login_EM">Your Email :</label>
+		<div class="space_EM"></div>
+		<input class="email_name_EM" name="email" onclick="check()" placeholder="Enter your Email">
+		<span class="form_message" id="form_massage_EM"></span>
+	</div>
+	<div class="form_group" id="form_group_PS">
+		<label class="pass_login_PS">Your PassWord : </label>
+		<div class="space_PS"></div>
+		<input class="pass_name_PS" name="pass" type="password" placeholder="Enter your PassWord">
+		<span class="form_message" id="form_massage_PS"></span>
+	</div>
+	<div class="form_group" id="form_group_RPS">
+		<label class="repass_login_RPS">Password Again : </label>
+		<div class="space_RPS"></div>
+		<input class="repass_name_RPS" name="repass" type="password" placeholder="Enter your PassWord again ">
+		<span class="form_message" id="form_massage_RPS"></span>
+	</div>
+	<button class="submitsignup" type="submit" value="Sign Up" name="submit" onclick="onSubmit">Sign Up</button>
+</form>
